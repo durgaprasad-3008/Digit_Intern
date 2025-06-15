@@ -1,0 +1,191 @@
+/* Mobile Devices CSS STarts */
+
+@media only screen and (max-width:767.99px) {
+    /* topbar CSS Starts */
+
+    .topbar-content {
+        flex-direction: column;
+    }
+
+    /* topbar CSS ends */
+    /*------------------------------------------------------------------*/
+    /* Header CSS Starts */
+
+    .header {
+        padding: 10px 10px;
+        flex-direction: column;
+    }
+
+    /* Header CSS Ends */
+    /*------------------------------------------------------------------*/
+    /* Banner CSS Starts */
+
+    .banner {
+        height: 55vh;
+    }
+
+    .banner-content h2 {
+        font-size: 22px;
+    }
+
+    .banner-content h3 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .banner-content p {
+        font-size: 10px;
+    }
+
+    /* Banner CSS Ends */
+    /*------------------------------------------------------------------*/
+    /* Reason cards section starts */
+
+    .reason-cards h2 {
+        font-size: 1.5rem;
+    }
+
+    .reason-cards {
+        padding-top: 1rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+
+    /* Reason cards section endsts */
+    /*------------------------------------------------------------------*/
+    /*Courses cards section Starts */
+
+    .coursr-cards {
+        padding-bottom: 0.5rem !important;
+        padding-top: 1rem !important;
+    }
+
+    .coursr-cards h2 {
+        font-size: 1.3rem;
+    }
+
+    .coursr-cards .col-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-top: 0.3rem;
+        padding-left: 1.7rem;
+        padding-bottom: 0.3rem;
+        padding-right: 1.7rem;
+    }
+
+    /*Courses cards section Ends */
+    /*------------------------------------------------------------------*/
+    /*Why Teach with DIGIT institute starts*/
+
+    .cards2 {
+        padding-bottom: 0.1rem !important;
+        padding-top: 1.2rem !important;
+    }
+
+    .cards2 h5 {
+        font-size: 16px;
+    }
+
+    .cards2 h2 {
+        font-size: 1.3rem;
+    }
+
+    .cards2 hr {
+        padding-bottom: 1.5rem;
+    }
+
+    /*Why Teach with DIGIT institute Ends */
+    /*------------------------------------------------------------------*/
+    /*Be an instructor section starts*/
+
+    .become-an-instructor {
+        padding-bottom: 0.5rem !important;
+        padding-top: 1rem !important;
+    }
+
+    .become-an-instructor h2 {
+        font-size: 1.3rem;
+    }
+
+    .become-an-instructor button {
+        font-size: 10px;
+    }
+
+    .become-an-instructor p {
+        font-size: 14px;
+        padding: 0px 0px 0px 0px;
+        font-weight: 500;
+    }
+
+    /*Be an instructor section ends*/
+    /*------------------------------------------------------------------*/
+    /* Footer CSS Starts */
+
+    .footer-address img {
+        max-width: 100px;
+    }
+
+    footer {
+        padding-bottom: 0.5rem !important;
+        padding-top: 1rem !important;
+        grid-template-columns: 1fr;
+        padding: 20px 10px;
+    }
+
+    footer h5 {
+        margin-top: 20px;
+    }
+
+    .subscribe-form form {
+        display: flex;
+    }
+
+    .subscribe-form form input {
+        width: 100%;
+    }
+
+    .recent-posts .card {
+        display: flex;
+    }
+
+    /* Footer CSS Ends */
+}
+
+/* Mobile Devices CSS Ends */
+/*------------------------------------------------------------------*/
+/* Tablet Devices CSS STarts */
+
+@media only screen and (min-width:768px) and (max-width:1023.99px) {}
+
+/* Tablet Devices CSS Ends */
+/*------------------------------------------------------------------*/
+/* multidropdown Start */
+
+@media (min-width: 767px) {
+    .navbar .dropdown-toggle:not(.nav-link)::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: .5em;
+        vertical-align: 0;
+        border-bottom: .3em solid transparent;
+        border-top: .3em solid transparent;
+        border-left: .3em solid;
+    }
+}
+
+/* multidropdown ends */
+/*------------------------------------------------------------------*/
+/* Floatind Wtsapp Starts */
+
+.floating {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.help {
+    margin-top: 10px;
+}
+
+/* Floatind Wtsapp ends */

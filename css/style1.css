@@ -1,0 +1,718 @@
+body {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  font-family: font-family 'Poppins', sans-serif;
+}
+
+/*topbar CSS starts*/
+.topbar {
+  background-color: #07294d;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.topbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.topbar a:hover {
+  color: #2BACE2;
+  outline: none;
+  text-decoration: none;
+}
+
+.topbar-contact ul,
+.topbar-social ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.topbar-contact ul li {
+  padding-right: 10px;
+}
+
+.topbar-contact ul li span {
+  padding-right: 10px;
+}
+
+.topbar-social {
+  display: flex;
+  align-items: center;
+}
+
+.topbar-social ul li {
+  padding-right: 10px;
+}
+
+.topbar-social ul {
+  border-right: 2px solid #fff;
+}
+
+.custom-btn {
+  border-width: 2px;
+  cursor: pointer;
+  line-height: normal;
+  padding: 12px 30px;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #2cabe1 !important;
+  margin-left: 10px;
+  color: #fff !important;
+}
+
+.custom-btn::before {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 2em;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -4.5em;
+  -webkit-transform: skewX(-45deg) translateX(0);
+  transform: skewX(-45deg) translateX(0);
+  transition: all 0.8s ease-in-out;
+  color: #fff !important;
+}
+
+.custom-btn:hover::before {
+  -webkit-transform: skewX(-45deg) translateX(40em);
+  transform: skewX(-45deg) translateX(40em);
+}
+
+/*topbar CSS Ends*/
+/*------------------------------------------------------------------*/
+/*Header CSS Starts */
+
+.custom-navbar {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.custom-navbar .navbar {
+  padding: 10px 0;
+}
+
+.navbarSupportedContent a {
+  color: #2bace2;
+}
+
+.custom-navbar .navbar-light .navbar-nav .active>.nav-link,
+.custom-navbar .navbar-light .navbar-nav .nav-link.active,
+.custom-navbar .navbar-light .navbar-nav .nav-link.show,
+.custom-navbar .navbar-light .navbar-nav .show>.nav-link {
+  color: #2bace2;
+}
+
+.custom-navbar .navbar-light .navbar-nav .nav-link:focus,
+.custom-navbar .navbar-light .navbar-nav .nav-link:hover {
+  color: #2bace2;
+}
+
+.custom-navbar .navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.dropdown-menu a {
+  color: #000;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  text-decoration: none !important;
+  color: #2cabe2 !important;
+}
+
+.dropdown-item:hover {
+  background-color: white !important;
+}
+
+/*Header CSS Ends */
+/*------------------------------------------------------------------*/
+/*Bannerr CSS Starts */
+
+.banner {
+  background-image: url("../images/group22.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+.banner hr {
+  margin: 0;
+  border-color: #2BACE2;
+  border-width: 4px;
+  width: 100%;
+  max-width: 35px;
+  position: relative;
+}
+
+.banner hr:before {
+  content: "";
+  background-color: #2BACE2;
+  width: 3px;
+  height: 4px;
+  position: absolute;
+  left: 37px;
+  top: -4px;
+}
+
+.banner hr:after {
+  content: "";
+  background-color: #2BACE2;
+  width: 3px;
+  height: 4px;
+  position: absolute;
+  left: 42px;
+  top: -4px;
+}
+
+
+.banner:before {
+  content: '';
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.4;
+}
+
+.banner-content {
+  position: absolute;
+  text-align: left;
+}
+
+.banner-content h2 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.banner-content h3 {
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.banner-content p {
+  color: #fff;
+  font-size: 22px;
+  width: 100%;
+  max-width: 450px;
+  margin: 10px auto;
+}
+
+.banner-content button {
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  line-height: normal;
+  padding: 12px 35px;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #2cabe1 !important;
+  margin: 30px 0;
+  color: #fff !important;
+}
+
+.banner-content button::before {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 2em;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -4.5em;
+  -webkit-transform: skewX(-45deg) translateX(0);
+  transform: skewX(-45deg) translateX(0);
+  transition: all 0.8s ease-in-out;
+  color: #fff !important;
+}
+
+.banner-content button:hover::before {
+  -webkit-transform: skewX(-45deg) translateX(40em);
+  transform: skewX(-45deg) translateX(40em);
+}
+
+/*Banner CSS Ends */
+/*------------------------------------------------------------------*/
+/*Reason CSS Starts */
+
+.reason {
+  background-color: white;
+  padding: 50px 50px;
+}
+
+.durga hr {
+  margin: 0 auto;
+  border-color: #2BACE2;
+  border-width: 4px;
+  width: 100%;
+  max-width: 35px;
+  position: relative;
+}
+
+.durga hr:before {
+  content: "";
+  background-color: #2BACE2;
+  width: 3px;
+  height: 4px;
+  position: absolute;
+  left: 37px;
+  top: -4px;
+}
+
+.durga hr:after {
+  content: "";
+  background-color: #2BACE2;
+  width: 3px;
+  height: 4px;
+  position: absolute;
+  left: 42px;
+  top: -4px;
+}
+
+.reason-content h2 {
+  color: #000;
+  position: absolute;
+  text-align: center;
+}
+
+/* Reason CSS ends */
+/*------------------------------------------------------------------*/
+/*Reason cards section starts*/
+
+.reason-cards {
+  padding: 20px 0px 10px 0px;
+}
+
+.reason-cards .reason-card {
+  border: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.reason-cards img.card-img-top {
+  width: 100%;
+  max-width: 120px;
+}
+
+.reason-cards p {
+  font-weight: 400px;
+}
+
+.reason-cards {
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+/*Reason cards section ends*/
+/*------------------------------------------------------------------*/
+/*courses cards section Starts*/
+
+.coursr-cards {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  background-color: #2BACE2;
+}
+
+.coursr-cards row {
+  padding-bottom: 30px;
+}
+
+.coursr-cards h2 {
+  padding: 0px 0px 30px 0px;
+}
+
+.custom-card span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2bace2;
+}
+
+.custom-card span svg {
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #2bace2;
+  margin-right: 1rem;
+}
+
+.custom-card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+/*courses cards section ends*/
+/*------------------------------------------------------------------*/
+/* Why Teach with DIGIT institute starts*/
+
+.cards2 {
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.cards2 hr {
+  padding-bottom: 3rem;
+}
+
+.cards2 hr {
+  margin: 0 auto;
+  border-color: #2BACE2;
+  border-width: 4px;
+  width: 100%;
+  max-width: 35px;
+  position: relative;
+}
+
+.cards2 hr:before {
+  content: "";
+  background-color: #2BACE2;
+  width: 3px;
+  height: 4px;
+  position: absolute;
+  left: 37px;
+  top: -4px;
+}
+
+.cards2 hr:after {
+  content: "";
+  background-color: #2BACE2;
+  width: 3px;
+  height: 4px;
+  position: absolute;
+  left: 42px;
+  top: -4px;
+}
+
+/* Why Teach with DIGIT institute ends*/
+/*------------------------------------------------------------------*/
+/*Be an instructor section starts*/
+
+.become-an-instructor {
+  padding-bottom: 12px;
+  padding-top: 40px;
+}
+
+.become-an-instructor .header1 h3 {
+  padding: 0px 0px 8px 0px;
+}
+
+.become-an-instructor p {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.custom-cards3 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 25%);
+  height: 80%;
+}
+
+.icon-card {
+  position: relative;
+  top: -32px;
+  left: 18px;
+  max-width: 50px;
+  height: 50px;
+  padding: 12px;
+  background-color: #2BACE2;
+  display: flex;
+  border-radius: 0px;
+}
+
+.become-an-instructor button {
+  font-size: 25px;
+  font-weight: 450;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  line-height: normal;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #2cabe1 !important;
+  margin: 30px 0;
+  color: #fff !important;
+}
+
+.become-an-instructor button::before {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 2em;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -4.5em;
+  -webkit-transform: skewX(-45deg) translateX(0);
+  transform: skewX(-45deg) translateX(0);
+  transition: all 0.8s ease-in-out;
+  color: #fff !important;
+}
+
+.become-an-instructor button:hover::before {
+  -webkit-transform: skewX(-45deg) translateX(40em);
+  transform: skewX(-45deg) translateX(40em);
+}
+
+/*Be an instructor section ends*/
+/*------------------------------------------------------------------*/
+/* Footer Css Starts */
+
+footer {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  background-color: #07294D
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer ul li a:hover {
+  color: #17a2b8;
+  outline: none;
+  text-decoration: none;
+}
+
+footer ul li a span {
+  padding-right: 8px;
+}
+
+footer h5,
+footer p {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-address img {
+  width: 100%;
+  max-width: 120px;
+  max-width: 300px;
+}
+
+.footer-address ul li {
+  padding-top: 14px;
+}
+
+.footer-address ul li a {
+  display: flex;
+}
+
+.footer-address h6 {
+  margin-top: 20px;
+  margin-left: 25px;
+  color: #17a2b8;
+}
+
+.map-icon {
+  margin-top: 45px;
+}
+
+.useful-links h6 {
+  margin-bottom: 3px;
+}
+
+.useful-links ul li {
+  padding-bottom: 10px;
+}
+
+.useful-links ul li a:hover {
+  padding-left: 5px;
+  transition: all 0.5s ease;
+  outline: none;
+  text-decoration: none;
+}
+
+.card-recent h5:hover {
+  color: #17a2b8;
+}
+
+.post_content {
+  color: #fff;
+}
+
+.post_img a {
+  max-width: 100px
+}
+
+.post_img a img {
+  max-width: 100px
+}
+
+.subscribe-form h4 {
+  margin-bottom: 20px;
+}
+
+.subscribe-form p {
+  margin-bottom: 10px;
+}
+
+.subscribe-form form button {
+  background-color: #2cabe1;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.subscribe-form form {
+  background-color: #fff;
+  padding: 6px 10px;
+}
+
+.subscribe-form form input {
+  background-color: transparent;
+  border: none;
+}
+
+.subscribe-form form input:focus-visible {
+  background-color: transparent;
+  border: none;
+  outline: none !important
+}
+
+.follow-title {
+  margin-top: 40px;
+}
+
+.subscribe-form ul {
+  display: flex;
+}
+
+.subscribe-form ul li {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin-right: 5px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recent-posts .card {
+  background-color: transparent;
+  margin-top: 20px;
+  border: none;
+}
+
+.recent-posts .card-body {
+  padding: 0 0 0 10px;
+}
+
+.recent-posts .card-title {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Footer Css Ends */
+/*------------------------------------------------------------------*/
+/* COpyright Section CSS STarts */
+
+.copyright {
+  background-color: #072044;
+}
+
+.copyright p {
+  text-align: left;
+  color: #fff;
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* Copyright Section CSS Ends */
+/*------------------------------------------------------------------*/
+/* Foating whatsup Start */
+
+.floating {
+  position: fixed;
+  width: 60px !important;
+  height: 60px !important;
+  bottom: 60px;
+  right: 60px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 40px !important;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.fa-whatsapp:before {
+  content: "\f232";
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 20px;
+}
+
+.help {
+  margin-top: 15px;
+}
+
+/* Foating whatsup ends */
+/*------------------------------------------------------------------*/
+/*modal popup horizontal line Start*/
+
+.durga1 hr {
+  margin: 0px;
+  border-color: #2BACE2;
+  border-width: 4px;
+  width: 100%;
+  max-width: 35px;
+  position: relative;
+}
+
+.durga1 hr:before {
+  content: "";
+  background-color: #2BACE2;
+  width: 3px;
+  height: 4px;
+  position: absolute;
+  left: 37px;
+  top: -4px;
+}
+
+.durga1 hr:after {
+  content: "";
+  background-color: #2BACE2;
+  width: 3px;
+  height: 4px;
+  position: absolute;
+  left: 42px;
+  top: -4px;
+}
+
+/*modal popup horizontal line ends*/
